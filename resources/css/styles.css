@@ -39,3 +39,33 @@ header img {
 .header_links li:not(:last-child) {
   margin-right: 10%;
 }
+
+/* About Us section */
+.about_us {
+  height: 500px;
+  background-color: #1F2937;
+  display: flex;
+}
+
+.aboutus_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  gap: 50px;
+}
+
+.aboutus_container img {
+  height: 300px;
+}
+
+.aboutus_title {
+  color: #f9faf8;
+  font-size: 48px;
+}
+
+.aboutus_container p {
+  color: #e5e7eb;
+  font-size: 18px;
+}
