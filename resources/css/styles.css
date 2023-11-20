@@ -43,7 +43,10 @@ header img {
   overflow: hidden;
 }
 
-
+.header_links a {
+  color: white;
+  text-decoration: none;
+}
 
 /* About Us section */
 #about_us {
