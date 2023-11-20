@@ -10,12 +10,12 @@ body {
 header {
   background-color: #1F2937;
   height: 100px;
-  width: 100%;
   max-width: 100%;
   margin: 0;
   display: grid;
   grid-template-columns: 50% 50%;
   padding: 5px 20px 5px 20px;
+  overflow: hidden;
 }
 
 header img {
@@ -34,10 +34,12 @@ header img {
   margin-top: 38px;
   font-size: 18px;
   color: #e5e7eb;
+  overflow: hidden;
 }
 
 .header_links li:not(:last-child) {
   margin-right: 10%;
+  overflow: hidden;
 }
 
 /* About Us section */
@@ -110,4 +112,27 @@ figcaption {
   font-size: 18px;
   margin-top: 10px;
   font-weight: bolder;
+}
+
+/* testimonials */
+
+#testimonials {
+  height: 500px;
+  display: flex;
+  background-color: #e5e7eb;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+#testimonials div {
+  width: 1300px;
+  font-size: 36px;
+  margin: 0 auto;
+}
+
+#testimonials div h2 {
+  font-size: 30px;
+  float: right;
+  margin-top: -30px;
 }
